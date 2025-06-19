@@ -1,0 +1,12 @@
+name = "proxy-anorsi"             # любое уникальное имя воркера
+main = "src/worker.js"            # путь до скрипта
+compatibility_date = "2025-06-20" # сегодняшняя дата (YYYY-MM-DD)
+
+# (необязательно) сразу привяжем роут
+routes = [
+  { pattern = "anorsi.msk.ru/*", zone_name = "anorsi.msk.ru" }
+]
+
+# если нужно окружение (env)
+# [env.staging]
+# routes = [ { pattern = "beta.anorsi.msk.ru/*", zone_name = "anorsi.msk.ru" } ]
