@@ -1,6 +1,6 @@
 name = "proxy-anorsi"             # любое уникальное имя воркера
 main = "src/worker.js"            # путь до скрипта
-compatibility_date = "2025-06-20" # сегодняшняя дата (YYYY-MM-DD)
+compatibility_date = "2025-06-19" # сегодняшняя дата (YYYY-MM-DD)
 
 # (необязательно) сразу привяжем роут
 routes = [
