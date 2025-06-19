@@ -6,6 +6,9 @@ compatibility_date = "2025-06-19" # сегодняшняя дата (YYYY-MM-DD)
 routes = [
   { pattern = "anorsi.msk.ru/*", zone_name = "anorsi.msk.ru" }
 ]
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
 
 # если нужно окружение (env)
 # [env.staging]
